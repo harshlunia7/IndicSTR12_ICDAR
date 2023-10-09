@@ -1,0 +1,263 @@
+(parseq) harshlunia parseq (main) >> pip3 install -r requirements.txt 
+Defaulting to user installation because normal site-packages is not writeable
+Collecting torch>=1.10.2
+  Using cached torch-1.13.0-cp39-none-macosx_11_0_arm64.whl (55.7 MB)
+Collecting torchvision>=0.11.3
+  Using cached torchvision-0.14.0-cp39-cp39-macosx_11_0_arm64.whl (1.3 MB)
+Collecting pytorch-lightning~=1.6.5
+  Using cached pytorch_lightning-1.6.5-py3-none-any.whl (585 kB)
+Collecting timm~=0.6.5
+  Using cached timm-0.6.11-py3-none-any.whl (548 kB)
+Collecting nltk~=3.7.0
+  Using cached nltk-3.7-py3-none-any.whl (1.5 MB)
+Collecting lmdb~=1.3.0
+  Using cached lmdb-1.3.0-cp39-cp39-macosx_11_0_arm64.whl
+Collecting Pillow~=9.2.0
+  Using cached Pillow-9.2.0-cp39-cp39-macosx_11_0_arm64.whl (2.8 MB)
+Collecting imgaug~=0.4.0
+  Using cached imgaug-0.4.0-py2.py3-none-any.whl (948 kB)
+Collecting hydra-core~=1.2.0
+  Using cached hydra_core-1.2.0-py3-none-any.whl (151 kB)
+Collecting fvcore~=0.1.5.post20220512
+  Using cached fvcore-0.1.5.post20220512-py3-none-any.whl
+Collecting ray[tune]~=1.13.0
+  Using cached ray-1.13.0-cp39-cp39-macosx_12_0_arm64.whl (26.0 MB)
+Collecting ax-platform~=0.2.5.1
+  Using cached ax_platform-0.2.5.1-py3-none-any.whl (993 kB)
+Requirement already satisfied: PyYAML~=6.0.0 in /Users/harshlunia/Library/Python/3.9/lib/python/site-packages (from -r requirements.txt (line 13)) (6.0)
+Collecting tqdm~=4.64.0
+  Using cached tqdm-4.64.1-py2.py3-none-any.whl (78 kB)
+Collecting typing-extensions
+  Using cached typing_extensions-4.4.0-py3-none-any.whl (26 kB)
+Collecting numpy
+  Downloading numpy-1.23.4-cp39-cp39-macosx_11_0_arm64.whl (13.4 MB)
+     |████████████████████████████████| 13.4 MB 459 kB/s 
+Collecting requests
+  Using cached requests-2.28.1-py3-none-any.whl (62 kB)
+Collecting packaging>=17.0
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting fsspec[http]!=2021.06.0,>=2021.05.0
+  Using cached fsspec-2022.11.0-py3-none-any.whl (139 kB)
+Collecting pyDeprecate>=0.3.1
+  Using cached pyDeprecate-0.3.2-py3-none-any.whl (10 kB)
+Collecting protobuf<=3.20.1
+  Using cached protobuf-3.20.1-py2.py3-none-any.whl (162 kB)
+Collecting torchmetrics>=0.4.1
+  Using cached torchmetrics-0.10.3-py3-none-any.whl (529 kB)
+Collecting tensorboard>=2.2.0
+  Using cached tensorboard-2.11.0-py3-none-any.whl (6.0 MB)
+Collecting huggingface-hub
+  Using cached huggingface_hub-0.11.0-py3-none-any.whl (182 kB)
+Collecting regex>=2021.8.3
+  Using cached regex-2022.10.31-cp39-cp39-macosx_11_0_arm64.whl (287 kB)
+Collecting click
+  Using cached click-8.1.3-py3-none-any.whl (96 kB)
+Collecting joblib
+  Downloading joblib-1.2.0-py3-none-any.whl (297 kB)
+     |████████████████████████████████| 297 kB 591 kB/s 
+Collecting matplotlib
+  Downloading matplotlib-3.6.2-cp39-cp39-macosx_11_0_arm64.whl (7.2 MB)
+     |████████████████████████████████| 7.2 MB 484 kB/s 
+Collecting scikit-image>=0.14.2
+  Using cached scikit_image-0.19.3-cp39-cp39-macosx_12_0_arm64.whl (12.5 MB)
+Collecting opencv-python
+  Downloading opencv_python-4.6.0.66-cp37-abi3-macosx_11_0_arm64.whl (30.0 MB)
+     |████████████████████████████████| 30.0 MB 273 kB/s 
+Requirement already satisfied: six in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from imgaug~=0.4.0->-r requirements.txt (line 8)) (1.15.0)
+Collecting scipy
+  Downloading scipy-1.9.3-cp39-cp39-macosx_12_0_arm64.whl (28.6 MB)
+     |████████████████████████████████| 28.6 MB 400 kB/s 
+Collecting imageio
+  Using cached imageio-2.22.4-py3-none-any.whl (3.4 MB)
+Collecting Shapely
+  Using cached Shapely-1.8.5.post1-cp39-cp39-macosx_11_0_arm64.whl (1.1 MB)
+Requirement already satisfied: omegaconf~=2.2 in /Users/harshlunia/Library/Python/3.9/lib/python/site-packages (from hydra-core~=1.2.0->-r requirements.txt (line 9)) (2.2.3)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in /Users/harshlunia/Library/Python/3.9/lib/python/site-packages (from hydra-core~=1.2.0->-r requirements.txt (line 9)) (4.9.3)
+Collecting iopath>=0.1.7
+  Using cached iopath-0.1.10-py3-none-any.whl
+Collecting tabulate
+  Using cached tabulate-0.9.0-py3-none-any.whl (35 kB)
+Collecting termcolor>=1.1
+  Using cached termcolor-2.1.0-py3-none-any.whl (5.8 kB)
+Collecting yacs>=0.1.6
+  Using cached yacs-0.1.8-py3-none-any.whl (14 kB)
+Collecting attrs
+  Downloading attrs-22.1.0-py2.py3-none-any.whl (58 kB)
+     |████████████████████████████████| 58 kB 361 kB/s 
+Collecting virtualenv
+  Using cached virtualenv-20.16.7-py3-none-any.whl (8.8 MB)
+Collecting click
+  Using cached click-8.0.4-py3-none-any.whl (97 kB)
+Collecting jsonschema
+  Downloading jsonschema-4.17.0-py3-none-any.whl (83 kB)
+     |████████████████████████████████| 83 kB 408 kB/s 
+Collecting msgpack<2.0.0,>=1.0.0
+  Using cached msgpack-1.0.4-cp39-cp39-macosx_11_0_arm64.whl (69 kB)
+Collecting filelock
+  Using cached filelock-3.8.0-py3-none-any.whl (10 kB)
+Collecting grpcio<=1.43.0,>=1.28.1
+  Using cached grpcio-1.43.0-cp39-cp39-macosx_11_0_arm64.whl
+Collecting aiosignal
+  Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting frozenlist
+  Using cached frozenlist-1.3.3-cp39-cp39-macosx_11_0_arm64.whl (35 kB)
+Collecting pandas
+  Downloading pandas-1.5.1-cp39-cp39-macosx_11_0_arm64.whl (10.9 MB)
+     |████████████████████████████████| 10.9 MB 258 kB/s 
+Collecting tensorboardX>=1.9
+  Using cached tensorboardX-2.5.1-py2.py3-none-any.whl (125 kB)
+Collecting typeguard
+  Using cached typeguard-2.13.3-py3-none-any.whl (17 kB)
+Collecting botorch==0.6.4
+  Using cached botorch-0.6.4-py3-none-any.whl (363 kB)
+Collecting scikit-learn
+  Downloading scikit_learn-1.1.3-cp39-cp39-macosx_12_0_arm64.whl (7.7 MB)
+     |████████████████████████████████| 7.7 MB 531 kB/s 
+Collecting plotly
+  Using cached plotly-5.11.0-py2.py3-none-any.whl (15.3 MB)
+Collecting jinja2
+  Downloading Jinja2-3.1.2-py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 176 kB/s 
+Collecting gpytorch>=1.6
+  Using cached gpytorch-1.9.0-py3-none-any.whl (245 kB)
+Collecting pyro-ppl==1.8.0
+  Using cached pyro_ppl-1.8.0-py3-none-any.whl (713 kB)
+Collecting multipledispatch
+  Using cached multipledispatch-0.6.0-py3-none-any.whl (11 kB)
+Collecting opt-einsum>=2.3.2
+  Using cached opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+Collecting pyro-api>=0.1.1
+  Using cached pyro_api-0.1.2-py3-none-any.whl (11 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1
+  Using cached aiohttp-3.8.3-cp39-cp39-macosx_11_0_arm64.whl (337 kB)
+Collecting yarl<2.0,>=1.0
+  Using cached yarl-1.8.1-cp39-cp39-macosx_11_0_arm64.whl (57 kB)
+Collecting charset-normalizer<3.0,>=2.0
+  Downloading charset_normalizer-2.1.1-py3-none-any.whl (39 kB)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Using cached async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting multidict<7.0,>=4.5
+  Using cached multidict-6.0.2-cp39-cp39-macosx_11_0_arm64.whl (29 kB)
+Collecting linear-operator>=0.1.1
+  Using cached linear_operator-0.2.0-py3-none-any.whl (152 kB)
+Collecting portalocker
+  Using cached portalocker-2.6.0-py2.py3-none-any.whl (15 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 301 kB/s 
+Collecting PyWavelets>=1.1.1
+  Using cached PyWavelets-1.4.1-cp39-cp39-macosx_11_0_arm64.whl (4.3 MB)
+Collecting networkx>=2.2
+  Using cached networkx-2.8.8-py3-none-any.whl (2.0 MB)
+Collecting tifffile>=2019.7.26
+  Using cached tifffile-2022.10.10-py3-none-any.whl (210 kB)
+Requirement already satisfied: wheel>=0.26 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from tensorboard>=2.2.0->pytorch-lightning~=1.6.5->-r requirements.txt (line 3)) (0.37.0)
+Collecting absl-py>=0.4
+  Using cached absl_py-1.3.0-py3-none-any.whl (124 kB)
+Collecting google-auth-oauthlib<0.5,>=0.4.1
+  Using cached google_auth_oauthlib-0.4.6-py2.py3-none-any.whl (18 kB)
+Collecting tensorboard-data-server<0.7.0,>=0.6.0
+  Using cached tensorboard_data_server-0.6.1-py3-none-any.whl (2.4 kB)
+Collecting werkzeug>=1.0.1
+  Using cached Werkzeug-2.2.2-py3-none-any.whl (232 kB)
+Collecting google-auth<3,>=1.6.3
+  Using cached google_auth-2.14.1-py2.py3-none-any.whl (175 kB)
+Collecting markdown>=2.6.8
+  Using cached Markdown-3.4.1-py3-none-any.whl (93 kB)
+Collecting tensorboard-plugin-wit>=1.6.0
+  Using cached tensorboard_plugin_wit-1.8.1-py3-none-any.whl (781 kB)
+Requirement already satisfied: setuptools>=41.0.0 in /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages (from tensorboard>=2.2.0->pytorch-lightning~=1.6.5->-r requirements.txt (line 3)) (58.0.4)
+Collecting pyasn1-modules>=0.2.1
+  Using cached pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+Collecting cachetools<6.0,>=2.0.0
+  Using cached cachetools-5.2.0-py3-none-any.whl (9.3 kB)
+Collecting rsa<5,>=3.1.4
+  Using cached rsa-4.9-py3-none-any.whl (34 kB)
+Collecting requests-oauthlib>=0.7.0
+  Using cached requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Collecting importlib-metadata>=4.4
+  Downloading importlib_metadata-5.0.0-py3-none-any.whl (21 kB)
+Collecting zipp>=0.5
+  Downloading zipp-3.10.0-py3-none-any.whl (6.2 kB)
+Collecting pyasn1<0.5.0,>=0.4.6
+  Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.12-py2.py3-none-any.whl (140 kB)
+     |████████████████████████████████| 140 kB 413 kB/s 
+Collecting certifi>=2017.4.17
+  Downloading certifi-2022.9.24-py3-none-any.whl (161 kB)
+     |████████████████████████████████| 161 kB 419 kB/s 
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 119 kB/s 
+Collecting oauthlib>=3.0.0
+  Using cached oauthlib-3.2.2-py3-none-any.whl (151 kB)
+Collecting MarkupSafe>=2.1.1
+  Downloading MarkupSafe-2.1.1-cp39-cp39-macosx_10_9_universal2.whl (17 kB)
+Collecting pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0
+  Downloading pyrsistent-0.19.2-cp39-cp39-macosx_10_9_universal2.whl (82 kB)
+     |████████████████████████████████| 82 kB 304 kB/s 
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.0.6-cp39-cp39-macosx_11_0_arm64.whl (226 kB)
+     |████████████████████████████████| 226 kB 366 kB/s 
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.38.0-py3-none-any.whl (965 kB)
+     |████████████████████████████████| 965 kB 214 kB/s 
+Collecting python-dateutil>=2.7
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.4-cp39-cp39-macosx_11_0_arm64.whl (63 kB)
+     |████████████████████████████████| 63 kB 336 kB/s 
+Collecting pytz>=2020.1
+  Downloading pytz-2022.6-py2.py3-none-any.whl (498 kB)
+     |████████████████████████████████| 498 kB 194 kB/s 
+Collecting tenacity>=6.2.0
+  Using cached tenacity-8.1.0-py3-none-any.whl (23 kB)
+Collecting threadpoolctl>=2.0.0
+  Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+Collecting distlib<1,>=0.3.6
+  Using cached distlib-0.3.6-py2.py3-none-any.whl (468 kB)
+Collecting platformdirs<3,>=2.4
+  Using cached platformdirs-2.5.4-py3-none-any.whl (14 kB)
+Installing collected packages: urllib3, typing-extensions, pyasn1, numpy, idna, charset-normalizer, certifi, zipp, torch, threadpoolctl, scipy, rsa, requests, pyasn1-modules, oauthlib, multidict, joblib, frozenlist, cachetools, yarl, tqdm, scikit-learn, requests-oauthlib, pyrsistent, pyro-api, pyparsing, platformdirs, Pillow, opt-einsum, MarkupSafe, linear-operator, importlib-metadata, google-auth, filelock, distlib, attrs, async-timeout, aiosignal, werkzeug, virtualenv, tifffile, tensorboard-plugin-wit, tensorboard-data-server, tenacity, PyWavelets, pytz, python-dateutil, pyro-ppl, protobuf, portalocker, packaging, networkx, multipledispatch, msgpack, markdown, kiwisolver, jsonschema, imageio, grpcio, gpytorch, google-auth-oauthlib, fsspec, fonttools, cycler, contourpy, click, aiohttp, absl-py, yacs, typeguard, torchvision, torchmetrics, termcolor, tensorboardX, tensorboard, tabulate, Shapely, scikit-image, regex, ray, pyDeprecate, plotly, pandas, opencv-python, matplotlib, jinja2, iopath, huggingface-hub, botorch, timm, pytorch-lightning, nltk, lmdb, imgaug, hydra-core, fvcore, ax-platform
+  WARNING: The scripts f2py, f2py3 and f2py3.9 are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script normalizer is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts convert-caffe2-to-onnx, convert-onnx-to-caffe2 and torchrun are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pyrsa-decrypt, pyrsa-encrypt, pyrsa-keygen, pyrsa-priv2pub, pyrsa-sign and pyrsa-verify are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tqdm is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script virtualenv is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts lsm2bin, tiff2fsspec, tiffcomment and tifffile are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script markdown_py is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script jsonschema is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts imageio_download_bin and imageio_remove_bin are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script google-oauthlib-tool is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts fonttools, pyftmerge, pyftsubset and ttx are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tensorboard is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script tabulate is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script skivi is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts ray, ray-operator, rllib, serve and tune are installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script huggingface-cli is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The script nltk is installed in '/Users/harshlunia/Library/Python/3.9/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed MarkupSafe-2.1.1 Pillow-9.2.0 PyWavelets-1.4.1 Shapely-1.8.5.post1 absl-py-1.3.0 aiohttp-3.8.3 aiosignal-1.3.1 async-timeout-4.0.2 attrs-22.1.0 ax-platform-0.2.5.1 botorch-0.6.4 cachetools-5.2.0 certifi-2022.9.24 charset-normalizer-2.1.1 click-8.0.4 contourpy-1.0.6 cycler-0.11.0 distlib-0.3.6 filelock-3.8.0 fonttools-4.38.0 frozenlist-1.3.3 fsspec-2022.11.0 fvcore-0.1.5.post20220512 google-auth-2.14.1 google-auth-oauthlib-0.4.6 gpytorch-1.9.0 grpcio-1.43.0 huggingface-hub-0.11.0 hydra-core-1.2.0 idna-3.4 imageio-2.22.4 imgaug-0.4.0 importlib-metadata-5.0.0 iopath-0.1.10 jinja2-3.1.2 joblib-1.2.0 jsonschema-4.17.0 kiwisolver-1.4.4 linear-operator-0.2.0 lmdb-1.3.0 markdown-3.4.1 matplotlib-3.6.2 msgpack-1.0.4 multidict-6.0.2 multipledispatch-0.6.0 networkx-2.8.8 nltk-3.7 numpy-1.23.4 oauthlib-3.2.2 opencv-python-4.6.0.66 opt-einsum-3.3.0 packaging-21.3 pandas-1.5.1 platformdirs-2.5.4 plotly-5.11.0 portalocker-2.6.0 protobuf-3.20.1 pyDeprecate-0.3.2 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-3.0.9 pyro-api-0.1.2 pyro-ppl-1.8.0 pyrsistent-0.19.2 python-dateutil-2.8.2 pytorch-lightning-1.6.5 pytz-2022.6 ray-1.13.0 regex-2022.10.31 requests-2.28.1 requests-oauthlib-1.3.1 rsa-4.9 scikit-image-0.19.3 scikit-learn-1.1.3 scipy-1.9.3 tabulate-0.9.0 tenacity-8.1.0 tensorboard-2.11.0 tensorboard-data-server-0.6.1 tensorboard-plugin-wit-1.8.1 tensorboardX-2.5.1 termcolor-2.1.0 threadpoolctl-3.1.0 tifffile-2022.10.10 timm-0.6.11 torch-1.13.0 torchmetrics-0.10.3 torchvision-0.14.0 tqdm-4.64.1 typeguard-2.13.3 typing-extensions-4.4.0 urllib3-1.26.12 virtualenv-20.16.7 werkzeug-2.2.2 yacs-0.1.8 yarl-1.8.1 zipp-3.10.0
+WARNING: You are using pip version 21.2.4; however, version 22.3.1 is available.
+You should consider upgrading via the '/Library/Developer/CommandLineTools/usr/bin/python3 -m pip install --upgrade pip' command.

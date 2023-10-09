@@ -1,0 +1,259 @@
+[2022-11-23 19:36:34,594][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpd7ar7_s2
+[2022-11-23 19:36:34,595][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpd7ar7_s2/_remote_module_non_scriptable.py
+[2022-11-23 19:36:35,218][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-11-23 19:36:35,229][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-11-23 19:36:43,011][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/train/synth
+[2022-11-23 19:36:51,864][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 3029354
+[2022-11-23 19:36:52,223][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/val
+[2022-11-23 19:36:52,225][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 501
+[2022-11-23 19:37:03,785][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-11-28 15:41:49,805][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp4f2dl5vw
+[2022-11-28 15:41:49,806][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp4f2dl5vw/_remote_module_non_scriptable.py
+[2022-11-28 15:41:50,467][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-11-28 15:41:50,478][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-11-28 15:41:58,095][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_guj/train/synth
+[2022-11-28 15:42:03,930][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-11-28 15:42:04,583][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_guj/val
+[2022-11-28 15:42:06,053][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-11-28 15:42:17,778][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-11-28 15:48:47,989][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpwft6ujb1
+[2022-11-28 15:48:47,989][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpwft6ujb1/_remote_module_non_scriptable.py
+[2022-11-28 15:48:48,617][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-11-28 15:48:48,628][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-11-28 15:48:54,434][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_guj/train/synth
+[2022-11-28 15:49:00,814][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-11-28 15:49:01,299][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_guj/val
+[2022-11-28 15:49:02,921][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-11-28 15:49:07,150][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-05 00:06:02,072][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpb06qvl0v
+[2022-12-05 00:06:02,072][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpb06qvl0v/_remote_module_non_scriptable.py
+[2022-12-05 00:06:02,830][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-05 00:06:02,841][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-05 00:06:10,429][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada/train/synth
+[2022-12-05 00:06:17,051][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-05 00:06:17,469][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada/val
+[2022-12-05 00:06:19,096][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499681
+[2022-12-05 00:06:30,571][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-08 22:03:54,459][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpxnim9vuy
+[2022-12-08 22:03:54,460][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpxnim9vuy/_remote_module_non_scriptable.py
+[2022-12-08 22:03:55,087][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-08 22:03:55,097][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-08 22:04:03,534][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_tamil/train/synth
+[2022-12-08 22:04:10,104][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-08 22:04:10,483][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_tamil/val
+[2022-12-08 22:04:12,006][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499888
+[2022-12-08 22:04:23,689][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-09 11:40:08,337][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpi1hz5wy2
+[2022-12-09 11:40:08,338][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpi1hz5wy2/_remote_module_non_scriptable.py
+[2022-12-09 11:40:09,057][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-09 11:40:09,067][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-09 11:40:11,062][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/train/synth
+[2022-12-09 11:40:17,026][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-09 11:40:17,474][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/val
+[2022-12-09 11:40:18,919][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499769
+[2022-12-09 11:40:22,177][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-13 00:45:51,100][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp01gzrvan
+[2022-12-13 00:45:51,101][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp01gzrvan/_remote_module_non_scriptable.py
+[2022-12-13 00:45:51,762][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 00:45:51,773][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 00:46:03,116][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/train/synth
+[2022-12-13 00:46:09,218][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-13 00:46:10,339][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/val
+[2022-12-13 00:46:11,871][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 497968
+[2022-12-13 01:26:07,176][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp4mrx9krd
+[2022-12-13 01:26:07,177][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp4mrx9krd/_remote_module_non_scriptable.py
+[2022-12-13 01:26:07,797][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 01:26:07,807][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 01:26:10,000][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/train/synth
+[2022-12-13 01:26:15,954][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-13 01:26:16,789][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/val
+[2022-12-13 01:26:18,202][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 497968
+[2022-12-13 01:26:30,189][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-13 20:01:32,602][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp9mq5z788
+[2022-12-13 20:01:32,603][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp9mq5z788/_remote_module_non_scriptable.py
+[2022-12-13 20:01:33,199][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 20:01:33,210][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 20:01:35,420][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_marathi/train/synth
+[2022-12-13 20:05:02,714][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpjtjfsvrp
+[2022-12-13 20:05:02,715][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpjtjfsvrp/_remote_module_non_scriptable.py
+[2022-12-13 20:05:03,325][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 20:05:03,335][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 20:05:05,490][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_marathi/train/synth
+[2022-12-13 20:12:39,743][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp5u073vnn
+[2022-12-13 20:12:39,744][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp5u073vnn/_remote_module_non_scriptable.py
+[2022-12-13 20:12:40,320][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 20:12:40,331][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 20:12:47,903][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_marathi/train/synth
+[2022-12-13 20:15:13,814][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpsphrm9ff
+[2022-12-13 20:15:13,815][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpsphrm9ff/_remote_module_non_scriptable.py
+[2022-12-13 20:15:14,419][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 20:15:14,429][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 20:15:16,569][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/train/synth
+[2022-12-13 20:15:22,752][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-13 20:15:23,154][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_odia/val
+[2022-12-13 20:15:24,699][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 497968
+[2022-12-13 20:15:36,718][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-13 23:04:26,104][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmptnqs126l
+[2022-12-13 23:04:26,104][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmptnqs126l/_remote_module_non_scriptable.py
+[2022-12-13 23:04:26,733][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-13 23:04:26,743][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-13 23:04:34,611][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_manipuri/train/synth
+[2022-12-13 23:04:40,714][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-13 23:04:40,984][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_manipuri/val
+[2022-12-13 23:04:42,504][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-12-13 23:04:53,872][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-14 20:07:10,579][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpn_l7hqeq
+[2022-12-14 20:07:10,580][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpn_l7hqeq/_remote_module_non_scriptable.py
+[2022-12-14 20:07:11,220][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-14 20:07:11,231][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-14 20:07:19,137][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_assamese/train/synth
+[2022-12-14 20:07:25,544][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-14 20:07:25,760][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_assamese/val
+[2022-12-14 20:07:27,293][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-12-14 20:07:38,788][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-15 16:13:04,635][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp8yjsm7wb
+[2022-12-15 16:13:04,637][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp8yjsm7wb/_remote_module_non_scriptable.py
+[2022-12-15 16:13:05,251][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-15 16:13:05,262][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-15 16:13:07,077][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_marathi/train/synth
+[2022-12-15 16:13:13,411][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-15 16:13:13,534][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_marathi/val
+[2022-12-15 16:13:14,816][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 430490
+[2022-12-15 16:13:18,042][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-16 14:38:46,519][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpbdvtszqt
+[2022-12-16 14:38:46,520][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpbdvtszqt/_remote_module_non_scriptable.py
+[2022-12-16 14:38:47,215][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-16 14:38:47,215][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-16 14:38:55,333][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_telugu/train/synth
+[2022-12-16 14:39:02,144][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-16 14:39:02,401][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_telugu/val
+[2022-12-16 14:39:04,053][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499658
+[2022-12-16 14:39:15,915][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-17 19:06:24,760][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpm6scabgk
+[2022-12-17 19:06:24,761][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpm6scabgk/_remote_module_non_scriptable.py
+[2022-12-17 19:06:25,373][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-17 19:06:25,384][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-17 19:06:33,041][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_urdu/train/synth
+[2022-12-17 19:06:38,851][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-17 19:06:39,028][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_urdu/val
+[2022-12-17 19:06:39,922][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 311785
+[2022-12-17 19:06:51,923][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-20 15:41:10,184][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpc2gnkurl
+[2022-12-20 15:41:10,185][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpc2gnkurl/_remote_module_non_scriptable.py
+[2022-12-20 15:41:10,791][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-20 15:41:10,801][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-20 15:41:18,567][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam/train/synth
+[2022-12-20 15:41:24,762][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-20 15:41:25,122][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam/val
+[2022-12-20 15:41:26,656][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-12-20 15:41:38,431][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-20 18:11:19,801][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpq8l820g8
+[2022-12-20 18:11:19,801][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpq8l820g8/_remote_module_non_scriptable.py
+[2022-12-20 18:11:20,593][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-20 18:11:20,604][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-20 18:11:28,323][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam/train/synth
+[2022-12-20 18:11:34,595][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-20 18:11:35,030][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam/val
+[2022-12-20 18:11:36,542][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-12-20 18:11:48,022][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2022-12-27 00:23:44,053][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpqlnyoq73
+[2022-12-27 00:23:44,053][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpqlnyoq73/_remote_module_non_scriptable.py
+[2022-12-27 00:23:44,748][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2022-12-27 00:23:44,758][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2022-12-27 00:23:53,702][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi/train/synth
+[2022-12-27 00:23:59,862][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2022-12-27 00:24:00,244][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi/val
+[2022-12-27 00:24:01,639][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2022-12-27 00:24:14,307][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-02 17:03:08,096][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpz_9li_55
+[2023-01-02 17:03:08,098][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpz_9li_55/_remote_module_non_scriptable.py
+[2023-01-02 17:03:08,734][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-02 17:03:08,745][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-02 17:03:16,475][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_gujarati/train/synth
+[2023-01-02 17:03:22,411][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-02 17:03:22,685][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_gujarati/val
+[2023-01-02 17:03:24,140][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-01-02 17:03:36,759][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-03 11:24:22,355][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpk_he9565
+[2023-01-03 11:24:22,356][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpk_he9565/_remote_module_non_scriptable.py
+[2023-01-03 11:24:23,060][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-03 11:24:23,071][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-03 11:24:30,896][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/train/synth
+[2023-01-03 11:24:36,687][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-03 11:24:36,906][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/val
+[2023-01-03 11:24:38,376][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499769
+[2023-01-03 11:24:49,360][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-03 11:33:14,805][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp0tu7ozxq
+[2023-01-03 11:33:14,806][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp0tu7ozxq/_remote_module_non_scriptable.py
+[2023-01-03 11:33:15,504][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-03 11:33:15,515][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-03 11:33:23,286][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/train/synth
+[2023-01-03 11:33:29,889][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-03 11:33:30,097][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_bengali/val
+[2023-01-03 11:33:31,692][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499769
+[2023-01-03 11:33:43,026][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-04 16:06:26,286][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmphaoh2tjr
+[2023-01-04 16:06:26,287][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmphaoh2tjr/_remote_module_non_scriptable.py
+[2023-01-04 16:06:26,950][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-04 16:06:26,961][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-04 16:06:34,801][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada/train/synth
+[2023-01-04 16:06:41,420][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-04 16:06:42,202][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada/val
+[2023-01-04 16:06:43,704][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 499681
+[2023-01-04 16:06:55,751][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-07 16:00:05,874][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpcxcrngoo
+[2023-01-07 16:00:05,875][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpcxcrngoo/_remote_module_non_scriptable.py
+[2023-01-07 16:00:06,515][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-07 16:00:06,525][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-07 16:00:14,216][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_meitei_manipuri/train/synth
+[2023-01-07 16:00:20,655][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-07 16:00:20,784][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_meitei_manipuri/val
+[2023-01-07 16:00:22,259][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-01-07 16:00:34,352][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-07 16:21:29,099][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmptaso3jcz
+[2023-01-07 16:21:29,100][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmptaso3jcz/_remote_module_non_scriptable.py
+[2023-01-07 16:28:48,110][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpae1otisw
+[2023-01-07 16:28:48,110][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpae1otisw/_remote_module_non_scriptable.py
+[2023-01-07 16:28:48,740][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-07 16:28:48,750][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-07 16:28:50,798][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_meitei_manipuri/train/synth
+[2023-01-07 16:28:56,665][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-01-07 16:28:56,766][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_meitei_manipuri/val
+[2023-01-07 16:28:58,239][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-01-07 16:29:01,610][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-01-13 02:38:27,786][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpg_gpw4f1
+[2023-01-13 02:38:27,787][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpg_gpw4f1/_remote_module_non_scriptable.py
+[2023-01-13 02:38:28,576][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-01-13 02:38:28,587][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-01-13 02:38:36,326][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi_gujarati/train/synth
+[2023-01-13 02:38:51,353][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 5109650
+[2023-01-13 02:38:51,737][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi_gujarati/val
+[2023-01-13 02:38:53,582][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 638706
+[2023-01-13 02:39:05,655][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-04-20 17:00:09,361][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpuk5mn2py
+[2023-04-20 17:00:09,362][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpuk5mn2py/_remote_module_non_scriptable.py
+[2023-04-20 17:00:09,987][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-04-20 17:00:09,998][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-04-20 17:00:18,689][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi_gujarati/train/synth
+[2023-04-20 17:00:25,510][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-04-20 17:00:26,545][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_hindi_gujarati/val
+[2023-04-20 17:00:28,002][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-04-20 17:00:42,476][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-04-22 17:54:35,052][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmpjfawf6ch
+[2023-04-22 17:54:35,053][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmpjfawf6ch/_remote_module_non_scriptable.py
+[2023-04-22 17:54:35,673][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-04-22 17:54:35,683][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-04-22 17:54:43,529][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam_tamil/train/synth
+[2023-04-22 17:54:50,379][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-04-22 17:54:50,603][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_malayalam_tamil/val
+[2023-04-22 17:54:52,255][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-04-22 17:55:05,428][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.
+[2023-04-23 13:28:29,718][torch.distributed.nn.jit.instantiator][INFO] - Created a temporary directory at /tmp/tmp529mwh70
+[2023-04-23 13:28:29,719][torch.distributed.nn.jit.instantiator][INFO] - Writing /tmp/tmp529mwh70/_remote_module_non_scriptable.py
+[2023-04-23 13:28:30,407][torch.distributed.distributed_c10d][INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2023-04-23 13:28:30,408][torch.distributed.distributed_c10d][INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+[2023-04-23 13:28:38,893][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada_telugu/train/synth
+[2023-04-23 13:28:44,756][strhub.data.dataset][INFO] - 	lmdb:	train	num samples: 2000000
+[2023-04-23 13:28:45,372][strhub.data.dataset][INFO] - dataset root:	/ssd_scratch/cvit/rafaelgetto/parseq_kannada_telugu/val
+[2023-04-23 13:28:46,842][strhub.data.dataset][INFO] - 	lmdb:	.	num samples: 500000
+[2023-04-23 13:28:59,751][torch.nn.parallel.distributed][INFO] - Reducer buckets have been rebuilt in this iteration.

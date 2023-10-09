@@ -1,0 +1,5 @@
+- trainer.gpus=2
+- trainer.max_epochs=40
+- charset=kannada_telugu
+- data.root_dir=/ssd_scratch/cvit/rafaelgetto/parseq_kannada_telugu
+- model.max_label_length=51

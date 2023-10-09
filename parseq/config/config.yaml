@@ -1,0 +1,53 @@
+model:
+  _convert_: all
+  img_size:
+  - 32
+  - 128
+  max_label_length: 51
+  charset_train: ು  ಃೕೖೄೀೊೋೇಿ್ೈಂ಼ೆಾೂೃೌఁౄెౌొృూః్ంాౖుిోేీైೡಖಯಐಢಙಠಮಉಫವಞಒ೭ಷ೫ಅಟಈ೨ಜಳಭಸಘ೩ಕಊಧ೯ನ೧ಽಋಲ೬ಣ೦ಏಓಡ೮ಬಌರಆಗಹಛಥಎಶಱಝದ೪ೞತಪಚೠಔಇఘడ౦ఆఇష౧ఱ౭ట౫ఔౡ౬ఋఢ౨ళఉఝనఙఖజశఞసవగఛఐఅలఒఏఫధఓౠ౩కతఴరఎబచణఊఠఈయ౪థహభఌదపమ౮౯
+  charset_test: ು  ಃೕೖೄೀೊೋೇಿ್ೈಂ಼ೆಾೂೃೌఁౄెౌొృూః్ంాౖుిోేీైೡಖಯಐಢಙಠಮಉಫವಞಒ೭ಷ೫ಅಟಈ೨ಜಳಭಸಘ೩ಕಊಧ೯ನ೧ಽಋಲ೬ಣ೦ಏಓಡ೮ಬಌರಆಗಹಛಥಎಶಱಝದ೪ೞತಪಚೠಔಇఘడ౦ఆఇష౧ఱ౭ట౫ఔౡ౬ఋఢ౨ళఉఝనఙఖజశఞసవగఛఐఅలఒఏఫధఓౠ౩కతఴరఎబచణఊఠఈయ౪థహభఌదపమ౮౯
+  batch_size: 128
+  weight_decay: 0.0
+  warmup_pct: 0.075
+  name: parseq
+  _target_: strhub.models.parseq.system.PARSeq
+  patch_size:
+  - 4
+  - 8
+  embed_dim: 384
+  enc_num_heads: 6
+  enc_mlp_ratio: 4
+  enc_depth: 12
+  dec_num_heads: 12
+  dec_mlp_ratio: 4
+  dec_depth: 1
+  lr: 0.0007
+  perm_num: 6
+  perm_forward: true
+  perm_mirrored: true
+  dropout: 0.1
+  decode_ar: true
+  refine_iters: 1
+data:
+  _target_: strhub.data.module.SceneTextDataModule
+  root_dir: /ssd_scratch/cvit/rafaelgetto/parseq_kannada_telugu
+  train_dir: synth
+  batch_size: ${model.batch_size}
+  img_size: ${model.img_size}
+  charset_train: ${model.charset_train}
+  charset_test: ${model.charset_test}
+  max_label_length: ${model.max_label_length}
+  remove_whitespace: false
+  normalize_unicode: false
+  augment: false
+  num_workers: 3
+trainer:
+  _target_: pytorch_lightning.Trainer
+  _convert_: all
+  val_check_interval: 1000
+  max_epochs: 40
+  gradient_clip_val: 20
+  gpus: 2
+  limit_train_batches: 0.20496
+ckpt_path: null
+pretrained: null
